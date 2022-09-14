@@ -1,0 +1,4 @@
+// rem mexins
+@function findrem ($valuepx,$indexpx:16){
+    @return (1rem * $valuepx / $indexpx); 
+}

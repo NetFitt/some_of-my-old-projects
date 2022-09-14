@@ -1,0 +1,148 @@
+/*
+**overlay mixins
+**overlay main properties
+*/
+/*
+**prefixer mixins
+**prefixer main properties
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1.25rem auto;
+  -moz-box-shadow: 0 0 13px 10px rgba(100, 100, 100, 0.3);
+  -webkit-box-shadow: 0 0 13px 10px rgba(100, 100, 100, 0.3);
+  box-shadow: 0 0 13px 10px rgba(100, 100, 100, 0.3);
+  width: 600px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 7500px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 890px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1005px;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.head {
+  margin: 0 auto 1.25rem;
+  padding: 1.25rem;
+  background-color: #2a8a96;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+}
+.head h1 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+.head .header-text {
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto 1.25rem;
+}
+.head .header-text h3 {
+  display: inline-block;
+  color: #caf0f8;
+}
+
+form .quests {
+  padding: 0.625rem;
+  text-align: start;
+  font-weight: bold;
+  font-size: fondrem(25);
+  margin: 0;
+}
+form .text {
+  margin-left: 10px;
+  padding: 0.625rem;
+}
+
+.submit-div {
+  text-align: center;
+  margin-top: 1.25rem;
+}
+.submit-div .submit {
+  transition: 0.5s;
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+.submit-div .submit:hover {
+  background-color: #04adc4;
+}
+.submit-div .submit:focus {
+  outline: none;
+  background-color: #44b927;
+}
+
+.counter {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.num {
+  text-align: center;
+  font-size: 100px;
+  color: #03cae4;
+}
+
+.checkbox {
+  padding: 0.625rem;
+}
+
+.check {
+  cursor: pointer;
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+.elContainer {
+  padding: 1.25rem;
+}
+
+/*# sourceMappingURL=style.css.map */

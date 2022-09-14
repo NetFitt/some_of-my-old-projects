@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.head {
+  margin: 0 auto findrem(20);
+  padding: findrem(20);
+  background-color: #2a8a96;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  h1 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  .header-text {
+    font: {
+      size: findrem(20, 16);
+      style: italic;
+    }
+    text-align: center;
+    margin: 0 auto findrem(20);
+    h3 {
+      display: inline-block;
+      color: #caf0f8;
+    }
+  }
+}
+
+form {
+  .quests {
+    padding: findrem(10) ;
+    text-align: start;
+    font-weight: bold;
+    font-size: fondrem(25);
+    margin: 0;
+  }
+  .text {
+    margin-left: 10px;
+    padding: findrem(10) ;
+  }
+}
+
+.submit-div {
+  text-align: center;
+  margin-top: findrem(20);
+  .submit {
+    transition: 0.5s;
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    border-radius:0 0 10px 10px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    // fin submit
+    &:hover {
+      background-color: #04adc4;
+    }
+    &:focus {
+      outline: none;
+      background-color: #44b927;
+    }
+  }
+}
+.counter {
+  text-align: center;
+  margin-top: 15%;
+}
+.num {
+  text-align: center;
+  font-size: 100px;
+  color: #03cae4;
+}
+
+.checkbox {
+  padding: findrem(10);
+}
+.check{
+  cursor: pointer;
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+.elContainer{
+  padding: findrem(20);
+}

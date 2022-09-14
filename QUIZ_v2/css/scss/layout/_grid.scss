@@ -1,0 +1,28 @@
+* {
+  @include prefixer(box-sizing, border-box, moz webkit);
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: findrem(20) auto;
+  @include prefixer(
+    box-shadow,
+    0 0 13px 10px rgba(100, 100, 100, 0.3),
+    moz webkit
+  );
+  width: 600px;
+
+  @media #{$minSmall} {
+    width: 7500px;
+  }
+  @media #{$minMediaum} {
+    width: 890px;
+  }
+  @media #{$minLarge} {
+    width: 1005px;
+  }
+}
+.clearfix {
+  clear: both;
+}

@@ -1,0 +1,23 @@
+*{
+    list-style: none;
+    
+}
+
+#all{
+    background-color: #212529;
+}
+
+
+#blog_text {
+    width: 50vw;
+    margin: 0 auto ;
+}
+
+.container a{
+    color:white;
+     text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
